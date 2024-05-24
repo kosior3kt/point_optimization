@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CALCULATION_STATUS	lib/src/lib/math_structures.hpp	/^enum class CALCULATION_STATUS$/;"	c
+CONVERGENCE	lib/src/lib/math_structures.hpp	/^   CONVERGENCE = 69, \/\/ just for fun, you can delete it later$/;"	m	class:CALCULATION_STATUS
+DIVERGENCE	lib/src/lib/math_structures.hpp	/^   DIVERGENCE,$/;"	m	class:CALCULATION_STATUS
+DistanceCostFunction	lib/src/lib/math_structures.hpp	/^      DistanceCostFunction(double target_length) :$/;"	f	struct:DistanceCostFunction
+DistanceCostFunction	lib/src/lib/math_structures.hpp	/^struct DistanceCostFunction$/;"	s
+FAILURE	lib/src/lib/math_structures.hpp	/^   FAILURE,$/;"	m	class:CALCULATION_STATUS
+FAILURE_SIZE_MISMATCH	lib/src/lib/math_structures.hpp	/^   FAILURE_SIZE_MISMATCH,$/;"	m	class:CALCULATION_STATUS
+LoopClosureCostFunction	lib/src/lib/math_structures.hpp	/^struct LoopClosureCostFunction$/;"	s
+__MATH_STRUCTURES__	lib/src/lib/math_structures.hpp	/^#define __MATH_STRUCTURES__$/;"	d
+__POINT_OPTIMIZATION__	lib/src/lib/lib.h	/^#define __POINT_OPTIMIZATION__$/;"	d
+getCalculationStatus	lib/src/lib/lib.cpp	/^solver::helper::getCalculationStatus(ceres::TerminationType _terminationStatus)$/;"	f	class:solver::helper
+getError	lib/src/lib/lib.cpp	/^std::string solver::helper::getError(CALCULATION_STATUS _stat)$/;"	f	class:solver::helper
+helper	lib/src/lib/lib.h	/^   namespace helper$/;"	n	namespace:solver
+main	example/main.cpp	/^int main()$/;"	f
+operator ()	lib/src/lib/math_structures.hpp	/^      bool operator()($/;"	f	struct:DistanceCostFunction
+operator ()	lib/src/lib/math_structures.hpp	/^      bool operator()($/;"	f	struct:LoopClosureCostFunction
+operator ()	lib/src/lib/math_structures.hpp	/^      bool operator()(const T *const p1, const T *const p2, T *residual) const$/;"	f	struct:DistanceCostFunction
+operator ()	lib/src/lib/math_structures.hpp	/^      bool operator()(const T *const p1, const T *const p2, T *residual) const$/;"	f	struct:LoopClosureCostFunction
+solver	lib/src/lib/lib.h	/^namespace solver$/;"	n
+stat_	lib/src/lib/math_structures.hpp	/^      CALCULATION_STATUS stat_;$/;"	m	struct:wrappedResult
+target_length	lib/src/lib/math_structures.hpp	/^      double target_length;$/;"	m	struct:DistanceCostFunction
+transformPoints	lib/src/lib/lib.cpp	/^wrappedResult solver::transformPoints($/;"	f	class:solver
+wrappedResult	lib/src/lib/math_structures.hpp	/^struct wrappedResult$/;"	s

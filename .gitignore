@@ -1,6 +1,5 @@
 build
 build2
-lib
 prog
 .cache
 CMakeUserPresets.json
